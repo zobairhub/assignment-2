@@ -1,0 +1,233 @@
+/* for laptop 1024px */
+@media screen and (max-width: 1024px) {
+.banner-text-box{
+  /* flex-direction: row; */
+}
+.banner-btn-box {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.banner-btn-box > .btn-primary{
+  font-size: 1.2rem;
+  padding: 12px 15px;
+}
+}
+/* for tablet devices */
+@media screen and (max-width: 768px) {
+nav {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 30px 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+.site-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30%;
+}
+.site-title {
+  color: #0B0223;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav-main {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-menu li {
+  margin-right: 10px;
+}
+.you,
+.tik{
+  height: 17px;
+}
+.banne-container{
+  flex-direction: column-reverse;
+}
+.banner-text-box{
+  width: 100%;
+}
+
+
+}
+
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+nav {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.nav-container{
+
+}
+.nav-main,.nav-menu,.nav-container{
+  flex-direction: column;
+}
+.nav-menu li {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+.banner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.banne-container{
+  flex-direction: column;
+}
+.banner-text-box{
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.banner-img-box img {
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/* for  extra small devices */
+@media screen and (max-width: 425px) {
+nav{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container,
+.nav-main,
+.nav-menu
+{
+  flex-direction: column;
+}
+.nav-menu li{
+  margin-bottom: 10px;
+}
+.site-logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.site-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav-social-box li {
+  margin-right: 4px;
+  
+}
+.nav-social-box li a{
+  font-size: 1rem;
+}
+.nav-social-box {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.you,
+.tik
+{
+  height: 16px;
+}
+.banner {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 30px 30px;
+}
+.banner-container{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text-box {
+  width: 100%;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.banner-img-box {
+  width: 100%;
+}
+.play-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat-text {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.banner-btn-box > .btn-primary{
+  font-size: 0.8rem;
+  padding: 10px;
+}
+.gammer-container{
+  flex-direction: column;
+}
+.gammer-img-box,
+.gammer-text-box
+{
+  max-width: 100%;
+}
+.gammer-text-box{
+  text-align: center;
+}
+.we-are-gammer{
+  padding: 30px;
+}
+.gammer-btn{
+  font-size: 1rem !important;
+  padding: 15px 25px !important;
+}
+.gammer-title{
+  font-size: 2rem;
+}
+.gammer-title,
+.gammer-des
+{
+  margin-bottom: 20px;
+}
+.gammer-des{
+  line-height: 25px;
+  font-size: 1rem;
+}
+.gammer-des-2{
+  margin-top: 60px;
+  font-size: 1.3rem;
+  line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+}

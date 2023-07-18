@@ -14,6 +14,12 @@ body{
   --text-secondary: #534C64;
 
 }
+.text-secondary{
+  color: var(--text-secondary);
+}
+.text-primary{
+  color: var(--text-primary);
+}
 .linear-bg{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
@@ -40,7 +46,7 @@ header{
 
 /* nav start */
 nav{
-  max-width: 95%;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 30px 100px;
   background: #FFF;
@@ -54,12 +60,13 @@ nav{
 }
 .site-logo img{
   height: 40px;
+  width: auto;
 }
 .site-logo{
   display: flex;
   justify-content: start;
   align-items: center;
-  width: 50%;
+  width: 30%;
 }
 .site-title {
   color: #0B0223;
@@ -73,7 +80,7 @@ nav{
   -webkit-text-fill-color: transparent;
 }
 .nav-main{
-  width: 50%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -109,10 +116,116 @@ nav{
   margin-right: 15px;
 }
 
-
-
-
-
 /* nav end */
+.banner{
+  
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0px 100px;
+  
+}
+.banne-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+}
+.banner-text-box{
+ 
+  background: url("../images/Group 14.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  width: 50%;
+  padding: 50px;
+}
+.banner-img-box{
+ /* width: 50%; */
+}
+.banner-img-box img {
+  width: 100%;
+}
+.play-text{
+  font-size:2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat-text{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.sub-title{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.banner-btn-box{
+  padding-top: 20px;
+}
+.go-rogue-btn{
+  background: #4EC5F7 !important;
+}
 
 /* header part end */
+/* we are gammer part start */
+.we-are-gammer{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 30px 100px;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gammer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.gammer-img-box{
+  max-width: 50%;
+}
+.gammer-img-box img{
+  width: 100%;
+}
+.gammer-text-box{
+  text-align: right;
+  max-width: 50%;
+}
+.gammer-title{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.gammer-des{
+  color: #534C64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+.ellipsis{
+color: #534C64;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 45px;
+  cursor: pointer;
+}
+.gammer-des-2{
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+}
+/* we are gammer part end */
