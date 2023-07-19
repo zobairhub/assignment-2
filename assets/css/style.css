@@ -189,15 +189,16 @@ nav{
   max-width: 100%;
   gap: 20px;
 }
-.gammer-img-box{
-  max-width: 50%;
-}
+
 .gammer-img-box img{
   width: 100%;
 }
+.gammer-img-box {
+  max-width: 60%;
+}
 .gammer-text-box{
   text-align: right;
-  max-width: 50%;
+  max-width: 40%;
 }
 .gammer-title{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -229,3 +230,91 @@ color: #534C64;
   line-height: 45px;
 }
 /* we are gammer part end */
+
+/* online game part start */
+.online-game{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 100px 100px;
+}
+.online-game-container{}
+.online-game-header{
+  text-align: center;
+}
+.online-game-title{
+  color: #0B0223;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.funny-title{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.online-game-des{
+  color: #534C64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  padding-bottom: 30px;
+}
+.game-card-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.game-card:hover .game-card-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.game-card{
+  position: relative;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.game-card-overlay{
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.60);
+  height: 98%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  border: 0.5px solid #FF42A5;
+}
+.game-watch{
+  font-size: 1.25rem;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.card-image{
+  height: 100%;
+  cursor: pointer;
+  width: 100%;
+}
+.game-card-text{
+  font-size: 1.25rem;
+  font-weight: 500;
+  /* line-height: 0px; */
+}
+/* online game part end */

@@ -51,6 +51,26 @@ nav {
 }
 .banner-text-box{
   width: 100%;
+  /* text-align: center; */
+}
+.game-card-box {
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-btn-box{
+  display: flex;
+  justify-content: start;
+}
+.we-are-gammer{
+  padding:30px;
+}
+.gammer-container{
+  flex-direction: column;
+}
+.gammer-img-box,.gammer-text-box {
+  max-width: 100%;
+}
+.gammer-text-box{
+  text-align: center;
 }
 
 
@@ -222,8 +242,18 @@ nav{
   line-height: 18px;
 }
 
+.game-card-box{
+  grid-template-columns: 1fr;
+}
 
-
+.online-game{
+  padding: 40px;
+}
+.online-game-title,
+.funny-title
+{
+  font-size: 1.3rem;
+}
 
 
 
