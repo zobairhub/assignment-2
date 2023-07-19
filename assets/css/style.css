@@ -41,11 +41,13 @@ body{
 .btn-primary{
   border-radius: 48px;
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-  padding: 18px 30px;
+  padding: 14px 23px;
+  /* padding: 18px 30px; */
   color:var(--text-white);
   cursor: pointer;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  /* font-size: 1.25rem; */
   font-weight: 600;
   text-transform: uppercase;
 
@@ -264,6 +266,7 @@ nav{
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 20px;
 }
 .ellipsis{
 color: #534C64;
