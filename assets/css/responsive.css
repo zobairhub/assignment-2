@@ -72,6 +72,40 @@ nav {
 .gammer-text-box{
   text-align: center;
 }
+.play-instant {
+  padding: 30px;
+}
+.play-instant-container {
+  gap: 40px;
+}
+.play-instant-text {
+    padding-right: 0px;
+}
+.play-instant-img .play-1-img img {
+  height: 300px;
+  width: auto;
+}
+.play-instant-img .play-2-img img {
+  height: 200px;
+  width: auto;
+}
+.play-instant-title,.play-instant-title > span {
+  font-size: 2.2rem;
+}
+.play-instant-des{
+  font-size: 1rem;
+}
+.game-button-part {
+  max-width: 1920px;
+  margin: 150px auto 0;
+  padding: 30px 100px;
+}
+.game-button-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
 
 
 }
@@ -254,6 +288,65 @@ nav{
 {
   font-size: 1.3rem;
 }
+
+.play-instant {
+  padding: 30px;
+}
+.play-instant-container,.play-game-online-container{
+  flex-direction: column;
+}
+.play-instant-text {
+  padding-right: 0px;
+  text-align: center;
+}
+.play-instant-img {
+  position: relative;
+  padding: 20px auto;
+  width: 82%;
+}
+.play-instant-img .play-1-img {
+  position: relative;
+  margin: 0 40px;
+  width: 100%;
+}
+.play-instant-img .play-2-img {
+  position: absolute;
+  top: 60%;
+  left: -8%;
+  width: 50%;
+}
+.play-instant-img .play-1-img img {
+  height: 250px;
+  width: auto;
+}
+.play-instant-img .play-2-img img {
+  height: 200px;
+}
+
+.game-button{
+  padding: 9px;
+  font-size: 0.75rem;
+}
+.game-button img {
+  height: 20px;
+  width: auto;
+}
+.game-button-part {
+  max-width: 1920px;
+  margin: 80px auto 0;
+  padding: 30px;
+}
+.game-button-box {
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+
+
+
+
+
 
 
 

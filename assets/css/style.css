@@ -26,6 +26,9 @@ body{
 .border-0{
   border: 0;
 }
+.bg-transparent{
+  background: transparent;
+}
 .btn-primary{
   border-radius: 48px;
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -318,3 +321,108 @@ color: #534C64;
   /* line-height: 0px; */
 }
 /* online game part end */
+
+/* play instant start */
+.play-instant{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 30px 100px;
+}
+.play-instant-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.play-instant-text{
+  padding-right: 200px;
+}
+.play-instant-title{
+  color: #0B0223;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.play-instant-title span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.play-instant-des{
+  color: #534C64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  
+}
+
+
+.play-instant-img{
+  position: relative;
+}
+
+.play-instant-img .play-1-img {
+  position: relative;
+}
+.play-instant-img .play-2-img {
+  position: absolute;
+  top: 70%;
+  left: -30%;
+}
+
+.play-instant-img .play-1-img img {
+  max-width: 100%;
+}
+.play-instant-img .play-2-img img{
+  max-width: 100%;
+}
+/* play instant end */
+
+/* game button part start*/
+.game-button-part{
+  max-width: 1920px;
+  margin: 300px auto 0;
+  padding: 30px 100px;
+}
+.game-button:hover {
+  border: 0.5px solid #F948B2;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game-button {
+  padding: 15px 18px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 0.5px solid transparent;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+.game-button img {
+  height: 30px;
+  width: auto;
+}
+.game-button-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+/* game button part end*/
