@@ -14,6 +14,12 @@ body{
   --text-secondary: #534C64;
 
 }
+.text-white{
+  color: var(--text-white) !important;
+}
+.text-center{
+  text-align: center;
+}
 .text-secondary{
   color: var(--text-secondary);
 }
@@ -29,6 +35,9 @@ body{
 .bg-transparent{
   background: transparent;
 }
+.bg-footer{
+  background:  #0B0223;;
+}
 .btn-primary{
   border-radius: 48px;
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -41,7 +50,23 @@ body{
   text-transform: uppercase;
 
 }
-
+.sign-in-btn{
+  /* position: relative; */
+  border: 0.5px solid transparent;
+}
+.sign-in-btn:hover {
+  background: #4EC5F7 ;
+  border: 0.5px solid #F948B2;
+  color: #F948B2;
+}
+.go-rogue-btn{
+border: 0.5px solid transparent;
+}
+.go-rogue-btn:hover{
+  background: #F948B2 !important;
+  border: 0.5px solid #4EC5F7;
+  color: #4EC5F7;
+}
 /* header part start */
 header{
   
@@ -64,17 +89,21 @@ nav{
 .site-logo img{
   height: 40px;
   width: auto;
+  cursor: pointer;
 }
 .site-logo{
   display: flex;
   justify-content: start;
   align-items: center;
   width: 30%;
+  
+
 }
 .site-title {
   color: #0B0223;
   font-size: 2.813rem;
   font-weight: 700;
+  cursor: pointer;
 }
 .site-title > span{
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -95,11 +124,19 @@ nav{
   align-items: center;
   justify-content: space-between;
 }
+.nav-menu li a:hover{
+  color: #F948B2;
+}
 .nav-menu li a{
   color: #3C354F;
   text-align: center;
   font-size: 1.125rem;
   font-weight: 500;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
 }
 .nav-menu li{
   margin-right: 30px;
@@ -109,11 +146,19 @@ nav{
   background: rgba(11, 2, 35, 0.10);
   padding: 18px 20px;
 }
+.nav-social-box li a:hover{
+  color: #F948B2;
+}
 .nav-social-box li a{
   color: #3C354F;
   text-align: center;
   font-size: 1.125rem;
   font-weight: 500;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
 }
 .nav-social-box li{
   margin-right: 15px;
@@ -169,6 +214,9 @@ nav{
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .banner-btn-box{
   padding-top: 20px;
@@ -309,6 +357,7 @@ color: #534C64;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 10px;
   }
 .card-image{
   height: 100%;
@@ -364,11 +413,14 @@ color: #534C64;
 .play-instant-img .play-1-img {
   position: relative;
 }
+
 .play-instant-img .play-2-img {
   position: absolute;
-  top: 70%;
-  left: -30%;
+  top: 55%;
+  left: -40%;
 }
+
+
 
 .play-instant-img .play-1-img img {
   max-width: 100%;
@@ -426,3 +478,95 @@ color: #534C64;
   
 }
 /* game button part end*/
+/* footer part start */
+footer{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+.footer-part{
+
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link,
+.footer-icon,
+.term
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-link{
+  margin-top: 50px;
+}
+.footer-link li{
+  margin-right: 30px;
+}
+.footer-link li a:hover{
+  color: #FF42A5;
+}
+.footer-link li a{
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition:0.5s ease ;
+    -webkit-transition:0.5s ease ;
+    -moz-transition:0.5s ease ;
+    -ms-transition:0.5s ease ;
+    -o-transition:0.5s ease ;
+}
+.footer-icon i{
+  transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.footer-icon i:hover{
+  color: #FF42A5;
+}
+.footer-icon{
+  display: flex;
+  color: #fff;
+  justify-content:center;
+  align-items: center;
+  gap: 40px;
+  font-size: 1.563rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.term{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    margin-top: 30px;
+}
+.term li a:hover{
+  color: #FF42A5;
+}
+.term li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    transition:0.5s ease ;
+    -webkit-transition:0.5s ease ;
+    -moz-transition:0.5s ease ;
+    -ms-transition:0.5s ease ;
+    -o-transition:0.5s ease ;
+}
+.copyright{}
+.copyright-text{
+  color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    
+    font-size: 1rem;
+  margin-top: 20px;
+    font-weight: 500;
+    
+}
+/* footer part end */
