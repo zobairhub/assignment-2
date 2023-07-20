@@ -53,23 +53,15 @@ body{
 .sign-in-btn,
 .go-rogue-btn
 {
- 
   border: 0.5px solid transparent;
-  transition: 0.5s ease;
-  -webkit-transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -ms-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-}
-.sign-in-btn:hover {
-  background: #4EC5F7 !important ;
-  border: 0.5px solid #F948B2;
-  color: #fff;
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
 }
 .go-rogue-btn:hover{
   background: #F948B2 !important;
-  border: 0.5px solid #4EC5F7;
-  color: #fff;
 }
 /* header part start */
 header{
@@ -247,11 +239,70 @@ nav{
 }
 .go-rogue-btn{
   background: #4EC5F7 !important;
+  position: relative;
+  overflow: hidden;
 }
-.sign-in-btn{
-  background:#F948B2 !important;
+.go-rogue-btn::before {
+  overflow: hidden;
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
 }
 
+.go-rogue-btn:hover::before {
+  width: 100%;
+}
+
+.sign-in-btn{
+  background:#F948B2 !important;
+  position: relative;
+  overflow: hidden;
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+}
+.sign-in-btn::before{
+  overflow: hidden;
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+}
+.sign-in-btn:hover::before{
+  width: 100%;
+}
+.sign-in-btn:hover{
+  background: #4EC5F7 !important;
+}
 /* header part end */
 /* we are gammer part start */
 .we-are-gammer{
@@ -262,24 +313,40 @@ nav{
 }
 .gammer-btn{
   border: 0.5px solid transparent;
-  transition: 0.5s ease;
-  -webkit-transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -ms-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
+  overflow: hidden;
+  position: relative;
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+  background: #F948B2;
+}
+.gammer-btn::before{
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -ms-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+}
+.gammer-btn:hover::before{
+  width: 100%;
 }
 .gammer-btn:hover{
-  border-radius: 48px;
-    background: linear-gradient(90deg, #4EC5F7 0%, #4EC5F7 100%);
-    padding: 14px 23px;
-    color: #FF42A5;
-    cursor: pointer;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: 0.5px solid #FF42A5;
-
+  background: #4EC5F7;
 }
 .gammer-container{
   display: flex;
