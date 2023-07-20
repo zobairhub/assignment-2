@@ -149,6 +149,26 @@ nav{
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.10);
   padding: 18px 20px;
+  position: relative;
+  cursor: pointer;
+}
+.nav-social-box::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background: rgba(21, 11, 46, 0.1);
+  border-radius: 8px;
+  left: 0;
+  transition: 0.8s ease-in;
+  -webkit-transition: 0.8s ease-in;
+  -moz-transition: 0.8s ease-in;
+  -ms-transition: 0.8s ease-in;
+  -o-transition: 0.8s ease-in;
+  cursor: pointer;
+}
+.nav-social-box:hover::before{
+  width: 100%;
 }
 .nav-social-box li a:hover{
   color: #F948B2;
