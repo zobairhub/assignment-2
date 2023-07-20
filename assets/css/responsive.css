@@ -78,8 +78,6 @@
 
 
 
-
-
 }
 /* for tablet devices */
 @media screen and (max-width: 768px) {
@@ -190,13 +188,6 @@ nav {
   font-size: 1rem;
 }
 
-
-
-
-
-
-
-
 .play-instant {
   padding: 30px;
 }
@@ -261,7 +252,10 @@ nav {
 .footer-icon{gap:35px; font-size: 1.3rem;}
 .term li a{font-size: 0.8rem;}
 .copyright-text{font-size: 0.8rem;}
-
+.gammer-btn{
+  font-size: 0.8rem !important;
+    padding: 9px 13px !important;
+}
 }
 
 /* for mobile devices */
@@ -328,7 +322,10 @@ nav {
   font-size: 1.2rem;
   gap: 30px;
 }
-
+.play-instant-title,
+.play-instant-title>span {
+  font-size: 1.3rem;
+}
 
 
 
@@ -439,8 +436,8 @@ nav{
   padding: 30px;
 }
 .gammer-btn{
-  font-size: 1rem !important;
-  padding: 15px 25px !important;
+  font-size: 0.8rem !important;
+  padding: 9px 13px !important;
 }
 .gammer-title{
   font-size: 2rem;
